@@ -1,6 +1,10 @@
 # VS Code
 .vscode
 
+# Reports
+mochawesome-report.json
+cypress/reports
+
 # Dependency directory
 node_modules
 cypress/videos
