@@ -3,6 +3,17 @@ import { defineConfig } from "cypress";
 export default defineConfig({
   viewportWidth: 1920,
   viewportHeight: 1080,
+
+  reporter: 'mochawesome',
+  reporterOptions: {
+    reportDir: 'cypress/reports',
+    charts: true,
+    embeddedScreenshots: true,
+    inlineAssets: true,
+    overwrite: false,
+    html: false,
+    json: true,
+  },
   
   e2e: {
     setupNodeEvents(on, config) {
