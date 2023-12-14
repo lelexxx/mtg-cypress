@@ -17,10 +17,10 @@ The following commands have to be writed in the `scripts` section of your `packa
 
 ## Configure Cypress with TypeSctipt
 
-1 - Create a `tsconfig.json`
-2 - Rename `cypress.config.js` to `cypress.config.ts`
-3 - Rename `commands.js` to `commands.ts`
-4 - Rename `e2e.js` to `e2e.ts`
+1. Create a `tsconfig.json`
+2. Rename `cypress.config.js` to `cypress.config.ts`
+3. Rename `commands.js` to `commands.ts`
+4. Rename `e2e.js` to `e2e.ts`
 
 ## Create your first test
 
